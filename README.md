@@ -25,27 +25,9 @@ We have preconfigured `npm` to automatically run `bower` so you can simply do:
 npm install
 ```
 
-### Source compilation
-
-I use gulp to compile angular modules. Each modules (folder) are compiled separately in a single file named as the module folder and dropped in the 'dist' folder.
-
-You can install gulp globally :
-
-```
-npm install -g gulp
-```
-
-This allow a better module separation, a quicker javascript file addition in the app, and the furure possibility to obfuscate files or use transpilers (babel, React jsx...) or other build tools.
-
-There is only one default task, so just run gulp command at project root
-
-```
-gulp
-```
-
 ### Data & server API
 
-I use mocked up data for testing. The [post] /candidate end point has a randow fail of 20% to simulate server failure handling.
+The app use mocked up data for testing. The [post] /candidate end point has a randow fail of 20% to simulate server failure handling.
 
 ### Running the App during Development
 
